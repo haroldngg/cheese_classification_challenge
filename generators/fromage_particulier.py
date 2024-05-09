@@ -9,7 +9,7 @@ print(device)
 # with open("~/Desktop/MODAL/token_HF", 'r') as file:
 #             token = file.readline()
 #########################################################
-token = "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"
+token = # Put your access token to the repository here !
 #########################################################
 
 class Fromage_particulier:
