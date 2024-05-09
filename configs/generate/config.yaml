@@ -2,7 +2,7 @@ batch_size: 1
 data_dir: ${root_dir}/dataset
 defaults:
 - image_generator: fromage_particulier
-- dataset_generator: prompt
+- dataset_generator: advanced_prompt
 hydra:
   job:
     chdir: true
