@@ -41,7 +41,7 @@ class AdvancedPromptsDatasetGenerator(DatasetGenerator):
                     {"prompt": f"Detailed shot of thinly sliced {label} cheese garnished with fresh herbs, focus on the layering and fresh condensation, natural morning light --style raw --v 6.0.",
                     "num_images": self.num_images_per_label},
 
-                    {"prompt": f"Close-up of a block of {label}cheese on a cold marble surface, emphasizing the clean cuts and natural color of the cheese, bright indoor lighting --style raw --v 6.0.",
+                    {"prompt": f"Close-up of a block of {label} cheese on a cold marble surface, emphasizing the clean cuts and natural color of the cheese, bright indoor lighting --style raw --v 6.0.",
                     "num_images": self.num_images_per_label},
 
                     {"prompt": f"Image of melted {label} cheese over a slice of rustic toast, close-up to highlight the melting texture and golden color, under warm kitchen lights --style raw --v 6.0.",
