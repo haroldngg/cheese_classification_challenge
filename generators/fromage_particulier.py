@@ -36,7 +36,7 @@ class Fromage_particulier:
 
         if use_cpu_offload:
             self.pipe.enable_sequential_cpu_offload()
-        self.num_inference_steps = 4
+        self.num_inference_steps = 50
         self.guidance_scale = 0
 
     def generate(self, prompts):
