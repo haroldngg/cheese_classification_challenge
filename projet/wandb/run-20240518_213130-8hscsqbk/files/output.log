@@ -1,0 +1,30 @@
+Using cache found in /users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[2024-05-18 21:31:34,204][dinov2][INFO] - using MLP layer as FFN
+
+  3%|███▎                                                                                                                  | 1/35 [02:20<1:19:30, 140.30s/it]
+Traceback (most recent call last):
+  File "/Data/harold.ngoupeyou/cheese_classification_challenge/train.py", line 96, in <module>
+    train()
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/Data/harold.ngoupeyou/cheese_classification_challenge/train.py", line 65, in train
+    y_true.extend(labels.detach().cpu().tolist())
+KeyboardInterrupt

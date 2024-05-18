@@ -1,0 +1,24 @@
+Using cache found in /users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[2024-05-18 13:17:57,317][dinov2][INFO] - using MLP layer as FFN
+Downloading: "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_reg4_pretrain.pth" to /users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/checkpoints/dinov2_vitl14_reg4_pretrain.pth
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████| 1.13G/1.13G [00:10<00:00, 114MB/s]
+Error executing job with overrides: ['datamodule.batch_size=${batch_size}', 'epochs=${epochs}', 'optim.lr=${lr}']
+Traceback (most recent call last):
+  File "/Data/harold.ngoupeyou/cheese_classification_challenge/train.py", line 12, in train
+    optimizer = hydra.utils.instantiate(cfg.optim, params=model.parameters())
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 220, in instantiate
+    OmegaConf.resolve(config)
+omegaconf.errors.InterpolationKeyError: Interpolation key 'lr' not found
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

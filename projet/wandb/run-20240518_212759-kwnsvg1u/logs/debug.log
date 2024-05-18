@@ -1,0 +1,43 @@
+2024-05-18 21:27:59,859 INFO    MainThread:490260 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-18 21:27:59,860 INFO    MainThread:490260 [wandb_setup.py:_flush():76] Configure stats pid to 490260
+2024-05-18 21:27:59,860 INFO    MainThread:490260 [wandb_setup.py:_flush():76] Loading settings from /users/eleves-a/2022/noam-joud-harold.ngoupeyou/.config/wandb/settings
+2024-05-18 21:27:59,860 INFO    MainThread:490260 [wandb_setup.py:_flush():76] Loading settings from /Data/harold.ngoupeyou/cheese_classification_challenge/outputs/train/2024-05-18_21-27-59/wandb/settings
+2024-05-18 21:27:59,860 INFO    MainThread:490260 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'challenge_cheese', 'entity': 'haroldng', 'root_dir': '/Data/harold.ngoupeyou/cheese_classification_challenge', 'sweep_id': '822z19cg', 'run_id': 'kwnsvg1u', 'sweep_param_path': '/Data/harold.ngoupeyou/cheese_classification_challenge/wandb/sweep-822z19cg/config-kwnsvg1u.yaml'}
+2024-05-18 21:27:59,860 INFO    MainThread:490260 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-18 21:27:59,860 INFO    MainThread:490260 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program_abspath': '/Data/harold.ngoupeyou/cheese_classification_challenge/train.py', 'program': '/Data/harold.ngoupeyou/cheese_classification_challenge/train.py'}
+2024-05-18 21:27:59,860 INFO    MainThread:490260 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-18 21:27:59,860 INFO    MainThread:490260 [wandb_init.py:_log_setup():520] Logging user logs to /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_212759-kwnsvg1u/logs/debug.log
+2024-05-18 21:27:59,860 INFO    MainThread:490260 [wandb_init.py:_log_setup():521] Logging internal logs to /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_212759-kwnsvg1u/logs/debug-internal.log
+2024-05-18 21:27:59,860 INFO    MainThread:490260 [wandb_init.py:init():560] calling init triggers
+2024-05-18 21:27:59,860 INFO    MainThread:490260 [wandb_init.py:init():567] wandb.init called with sweep_config: {'epochs': 38, 'lr': 0.00011605866885013178}
+config: {'_metadata': ContainerMetadata(ref_type=typing.Any, object_type=<class 'dict'>, optional=True, key=None, flags={'struct': True}, flags_root=False, resolver_cache=defaultdict(<class 'dict'>, {'now': {('%Y-%m-%d',): '2024-05-18', ('%H-%M-%S',): '21-27-59', ('%Y-%m-%d_%H-%M-%S',): '2024-05-18_21-27-59'}}), key_type=typing.Any, element_type=typing.Any), '_parent': None, '_flags_cache': {'struct': True, 'convert': None}, '_content': {'model': {'instance': {'_target_': 'models.dinov2.DinoV2Finetune', 'num_classes': '${dataset.num_classes}', 'frozen': True, 'unfreeze_last_layer': True}, 'name': 'DINOV2'}, 'dataset': {'train_transform': {'_target_': 'torchvision.transforms.Compose', 'transforms': [{'_target_': 'torchvision.transforms.RandomResizedCrop', 'size': [224, 224]}, {'_target_': 'torchvision.transforms.RandomRotation', 'degrees': 30}, {'_target_': 'torchvision.transforms.RandomHorizontalFlip'}, {'_target_': 'torchvision.transforms.ColorJitter', 'brightness': 0.4, 'contrast': 0.4, 'saturation': 0.2, 'hue': 0.1}, {'_target_': 'torchvision.transforms.RandomAffine', 'degrees': 0, 'translate': [0.1, 0.1]}, {'_target_': 'torchvision.transforms.ToTensor'}, {'_target_': 'torchvision.transforms.Normalize', 'mean': [0.485, 0.456, 0.406], 'std': [0.229, 0.224, 0.225]}]}, 'test_transform': {'_target_': 'torchvision.transforms.Compose', 'transforms': [{'_target_': 'torchvision.transforms.Resize', 'size': [224, 224]}, {'_target_': 'torchvision.transforms.ToTensor'}, {'_target_': 'torchvision.transforms.Normalize', 'mean': [0.485, 0.456, 0.406], 'std': [0.229, 0.224, 0.225]}]}, 'name': 'advanced_prompt', 'num_classes': 37, 'batch_size': 128, 'num_workers': 8, 'train_path': '${data_dir}/train/advanced_prompt_advanced_models/00-v2', 'real_images_val_path': '${data_dir}/val_simplified', 'test_path': '${data_dir}/test'}, 'optim': {'_target_': 'torch.optim.AdamW', 'lr': 1e-05, 'betas': [0.9, 0.999]}, 'loss_fn': {'_partial_': True, '_target_': 'torch.nn.functional.cross_entropy', 'reduction': 'mean', 'label_smoothing': 0.05}, 'datamodule': {'_target_': 'data.datamodule.DataModule', 'train_dataset_path': '${dataset.train_path}', 'real_images_val_path': '${dataset.real_images_val_path}', 'train_transform': '${dataset.train_transform}', 'val_transform': '${dataset.test_transform}', 'batch_size': 32, 'num_workers': '${dataset.num_workers}'}, 'data_dir': '${root_dir}/dataset', 'root_dir': '${hydra:runtime.cwd}', 'checkpoint_path': '${root_dir}/checkpoints/${experiment_name}.pt', 'experiment_name': '${model.name}_${dataset.name}', 'epochs': 10}}
+2024-05-18 21:27:59,860 INFO    MainThread:490260 [wandb_init.py:init():610] starting backend
+2024-05-18 21:27:59,860 INFO    MainThread:490260 [wandb_init.py:init():614] setting up manager
+2024-05-18 21:27:59,865 INFO    MainThread:490260 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-18 21:27:59,865 INFO    MainThread:490260 [wandb_init.py:init():622] backend started and connected
+2024-05-18 21:27:59,874 ERROR   MainThread:490260 [wandb_init.py:init():1174] error in wandb.init()
+Traceback (most recent call last):
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1164, in init
+    return wi.init()
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 627, in init
+    run = Run(
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 594, in __init__
+    self._init(
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 709, in _init
+    self._config._update(config, ignore_locked=True)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 177, in _update
+    sanitized = self._sanitize_dict(
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 264, in _sanitize_dict
+    k, v = self._sanitize(k, v, allow_val_change)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 282, in _sanitize
+    val = json_friendly_val(val)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/util.py", line 671, in json_friendly_val
+    converted = asdict(val)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/dataclasses.py", line 1238, in asdict
+    return _asdict_inner(obj, dict_factory)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/dataclasses.py", line 1245, in _asdict_inner
+    value = _asdict_inner(getattr(obj, f.name), dict_factory)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/dataclasses.py", line 1275, in _asdict_inner
+    return type(obj)((_asdict_inner(k, dict_factory),
+TypeError: first argument must be callable or None
+2024-05-18 21:28:01,040 WARNING MsgRouterThr:490260 [router.py:message_loop():77] message_loop has been closed

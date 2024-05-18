@@ -1,0 +1,16 @@
+Using cache found in /users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[2024-05-18 13:27:05,010][dinov2][INFO] - using MLP layer as FFN
+Error executing job with overrides: ['epochs=${epochs}']
+Traceback (most recent call last):
+  File "/Data/harold.ngoupeyou/cheese_classification_challenge/train.py", line 19, in train
+    for epoch in tqdm(range(cfg.epochs)):
+omegaconf.errors.InterpolationResolutionError: Recursive interpolation detected
+    full_key: epochs
+    object_type=dict
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

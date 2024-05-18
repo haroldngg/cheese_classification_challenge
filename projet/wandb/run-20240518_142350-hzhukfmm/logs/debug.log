@@ -1,0 +1,29 @@
+2024-05-18 14:23:50,191 INFO    MainThread:400825 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-18 14:23:50,192 INFO    MainThread:400825 [wandb_setup.py:_flush():76] Configure stats pid to 400825
+2024-05-18 14:23:50,192 INFO    MainThread:400825 [wandb_setup.py:_flush():76] Loading settings from /users/eleves-a/2022/noam-joud-harold.ngoupeyou/.config/wandb/settings
+2024-05-18 14:23:50,192 INFO    MainThread:400825 [wandb_setup.py:_flush():76] Loading settings from /Data/harold.ngoupeyou/cheese_classification_challenge/outputs/train/2024-05-18_14-23-49/wandb/settings
+2024-05-18 14:23:50,192 WARNING MainThread:400825 [wandb_setup.py:_flush():76] Unknown environment variable: WANDB_SERVICE
+2024-05-18 14:23:50,192 INFO    MainThread:400825 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'haroldng', 'project': 'cheese_classification_challenge', 'sweep_id': 'c2zva8pz', 'root_dir': '/Data/harold.ngoupeyou/cheese_classification_challenge', 'run_id': 'hzhukfmm', 'sweep_param_path': '/Data/harold.ngoupeyou/cheese_classification_challenge/wandb/sweep-c2zva8pz/config-hzhukfmm.yaml'}
+2024-05-18 14:23:50,192 INFO    MainThread:400825 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-18 14:23:50,192 INFO    MainThread:400825 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program_abspath': '/Data/harold.ngoupeyou/cheese_classification_challenge/train.py', 'program': '/Data/harold.ngoupeyou/cheese_classification_challenge/train.py'}
+2024-05-18 14:23:50,192 INFO    MainThread:400825 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-18 14:23:50,193 INFO    MainThread:400825 [wandb_init.py:_log_setup():520] Logging user logs to /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_142350-hzhukfmm/logs/debug.log
+2024-05-18 14:23:50,193 INFO    MainThread:400825 [wandb_init.py:_log_setup():521] Logging internal logs to /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_142350-hzhukfmm/logs/debug-internal.log
+2024-05-18 14:23:50,193 INFO    MainThread:400825 [wandb_init.py:init():560] calling init triggers
+2024-05-18 14:23:50,193 INFO    MainThread:400825 [wandb_init.py:init():567] wandb.init called with sweep_config: {'datamodule.batch_size': 59, 'epochs': 35, 'optim.lr': 0.003867042216512206}
+config: {}
+2024-05-18 14:23:50,193 INFO    MainThread:400825 [wandb_init.py:init():610] starting backend
+2024-05-18 14:23:50,193 INFO    MainThread:400825 [wandb_init.py:init():614] setting up manager
+2024-05-18 14:23:50,207 INFO    MainThread:400825 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-18 14:23:50,209 INFO    MainThread:400825 [wandb_init.py:init():622] backend started and connected
+2024-05-18 14:23:50,233 INFO    MainThread:400825 [wandb_run.py:_config_callback():1376] config_cb None None {'datamodule.batch_size': 59, 'epochs': 35, 'optim.lr': 0.003867042216512206}
+2024-05-18 14:23:50,234 INFO    MainThread:400825 [wandb_init.py:init():711] updated telemetry
+2024-05-18 14:23:50,239 INFO    MainThread:400825 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-18 14:23:50,639 INFO    MainThread:400825 [wandb_run.py:_on_init():2396] communicating current version
+2024-05-18 14:23:50,744 INFO    MainThread:400825 [wandb_run.py:_on_init():2405] got version response 
+2024-05-18 14:23:50,744 INFO    MainThread:400825 [wandb_init.py:init():795] starting run threads in backend
+2024-05-18 14:23:53,500 INFO    MainThread:400825 [wandb_run.py:_console_start():2374] atexit reg
+2024-05-18 14:23:53,501 INFO    MainThread:400825 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-05-18 14:23:53,501 INFO    MainThread:400825 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-05-18 14:23:53,501 INFO    MainThread:400825 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-05-18 14:23:53,501 INFO    MainThread:400825 [wandb_init.py:init():838] run started, returning control to user process

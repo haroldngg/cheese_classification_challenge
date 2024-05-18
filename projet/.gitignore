@@ -1,8 +1,6 @@
 __pycache__
 split_dataset.py
-wandb
 outputs
-/dataset/
 !/dataset/.empty
 challenge_subset
 create_test.py

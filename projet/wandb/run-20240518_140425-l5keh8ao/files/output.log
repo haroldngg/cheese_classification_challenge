@@ -1,0 +1,16 @@
+Using cache found in /users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Error executing job with overrides: ['datamodule.batch_size=${datamodule.batch_size}', 'epochs=${epochs}', 'optim.lr=${optim.lr}']
+Traceback (most recent call last):
+  File "/Data/harold.ngoupeyou/cheese_classification_challenge/train.py", line 12, in train
+    optimizer = hydra.utils.instantiate(cfg.optim, params=model.parameters())
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 220, in instantiate
+    OmegaConf.resolve(config)
+omegaconf.errors.InterpolationResolutionError: Recursive interpolation detected
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2024-05-18 14:04:29,013][dinov2][INFO] - using MLP layer as FFN

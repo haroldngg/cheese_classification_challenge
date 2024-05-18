@@ -1,0 +1,16 @@
+Using cache found in /users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Error executing job with overrides: ['datamodule.batch_size=datamodule.batch_size', 'epochs=epochs', 'optim.lr=optim.lr']
+Error in call to target 'torch.optim.adamw.AdamW':
+TypeError("'<=' not supported between instances of 'float' and 'str'")
+full_key: optim
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2024-05-18 14:31:02,470][dinov2][INFO] - using MLP layer as FFN
+Optimizer config before instantiation:
+ _target_: torch.optim.AdamW
+lr: optim.lr

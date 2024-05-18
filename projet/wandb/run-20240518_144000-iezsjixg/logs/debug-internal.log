@@ -1,0 +1,181 @@
+2024-05-18 14:40:00,290 INFO    StreamThr :406526 [internal.py:wandb_internal():85] W&B internal server running at pid: 406526, started at: 2024-05-18 14:40:00.286853
+2024-05-18 14:40:00,292 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: status
+2024-05-18 14:40:00,312 INFO    WriterThread:406526 [datastore.py:open_for_write():87] open: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/run-iezsjixg.wandb
+2024-05-18 14:40:00,312 DEBUG   SenderThread:406526 [sender.py:send():378] send: header
+2024-05-18 14:40:00,318 DEBUG   SenderThread:406526 [sender.py:send():378] send: run
+2024-05-18 14:40:00,672 INFO    SenderThread:406526 [dir_watcher.py:__init__():211] watching files in: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files
+2024-05-18 14:40:00,672 INFO    SenderThread:406526 [sender.py:_start_run_threads():1123] run started: iezsjixg with start time 1716036000.286542
+2024-05-18 14:40:00,686 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: check_version
+2024-05-18 14:40:00,686 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: check_version
+2024-05-18 14:40:00,780 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: run_start
+2024-05-18 14:40:00,803 DEBUG   HandlerThread:406526 [system_info.py:__init__():26] System info init
+2024-05-18 14:40:00,804 DEBUG   HandlerThread:406526 [system_info.py:__init__():41] System info init done
+2024-05-18 14:40:00,804 INFO    HandlerThread:406526 [system_monitor.py:start():194] Starting system monitor
+2024-05-18 14:40:00,804 INFO    SystemMonitor:406526 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-18 14:40:00,804 INFO    HandlerThread:406526 [system_monitor.py:probe():214] Collecting system info
+2024-05-18 14:40:00,804 INFO    SystemMonitor:406526 [interfaces.py:start():188] Started cpu monitoring
+2024-05-18 14:40:00,805 INFO    SystemMonitor:406526 [interfaces.py:start():188] Started disk monitoring
+2024-05-18 14:40:00,805 INFO    SystemMonitor:406526 [interfaces.py:start():188] Started gpu monitoring
+2024-05-18 14:40:00,806 INFO    SystemMonitor:406526 [interfaces.py:start():188] Started memory monitoring
+2024-05-18 14:40:00,807 INFO    SystemMonitor:406526 [interfaces.py:start():188] Started network monitoring
+2024-05-18 14:40:00,812 DEBUG   HandlerThread:406526 [system_info.py:probe():150] Probing system
+2024-05-18 14:40:00,813 DEBUG   HandlerThread:406526 [system_info.py:_probe_git():135] Probing git
+2024-05-18 14:40:00,817 DEBUG   HandlerThread:406526 [system_info.py:_probe_git():143] Probing git done
+2024-05-18 14:40:00,817 DEBUG   HandlerThread:406526 [system_info.py:probe():198] Probing system done
+2024-05-18 14:40:00,817 DEBUG   HandlerThread:406526 [system_monitor.py:probe():223] {'os': 'Linux-5.14.0-427.16.1.el9_4.x86_64-x86_64-with-glibc2.34', 'python': '3.10.14', 'heartbeatAt': '2024-05-18T12:40:00.812205', 'startedAt': '2024-05-18T12:40:00.266018', 'docker': None, 'cuda': None, 'args': ('epochs=${epochs}', 'optim.lr=${optim.lr}'), 'state': 'running', 'program': '/Data/harold.ngoupeyou/cheese_classification_challenge/train.py', 'codePathLocal': None, 'codePath': 'train.py', 'git': {'remote': 'https://github.com/haroldngg/cheese_classification_challenge.git', 'commit': '6829045c8908dd76a0717b2e3353450815f85f53'}, 'email': None, 'root': '/Data/harold.ngoupeyou/cheese_classification_challenge', 'host': 'albatros.polytechnique.fr', 'username': 'noam-joud-harold.ngoupeyou', 'executable': '/Data/harold.ngoupeyou/cheese_challenge/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3.713624999999999, 'min': 800.0, 'max': 5100.0}, 'cpu_freq_per_core': [{'current': 3.8, 'min': 800.0, 'max': 5100.0}, {'current': 3.8, 'min': 800.0, 'max': 5100.0}, {'current': 3.8, 'min': 800.0, 'max': 5100.0}, {'current': 3.8, 'min': 800.0, 'max': 5100.0}, {'current': 3.8, 'min': 800.0, 'max': 5100.0}, {'current': 3.8, 'min': 800.0, 'max': 5100.0}, {'current': 3.8, 'min': 800.0, 'max': 5100.0}, {'current': 3.8, 'min': 800.0, 'max': 5100.0}, {'current': 3.8, 'min': 800.0, 'max': 5100.0}, {'current': 3.8, 'min': 800.0, 'max': 5100.0}, {'current': 3.8, 'min': 800.0, 'max': 5100.0}, {'current': 2.418, 'min': 800.0, 'max': 5100.0}, {'current': 3.8, 'min': 800.0, 'max': 5100.0}, {'current': 3.8, 'min': 800.0, 'max': 5100.0}, {'current': 3.8, 'min': 800.0, 'max': 5100.0}, {'current': 3.8, 'min': 800.0, 'max': 5100.0}], 'disk': {'/': {'total': 3.990234375, 'used': 0.9446067810058594}}, 'gpu': 'NVIDIA RTX A5000', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX A5000', 'memory_total': 25757220864}], 'memory': {'total': 62.28952407836914}}
+2024-05-18 14:40:00,817 INFO    HandlerThread:406526 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-18 14:40:00,817 INFO    HandlerThread:406526 [system_monitor.py:probe():227] Publishing system info
+2024-05-18 14:40:00,817 DEBUG   HandlerThread:406526 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-18 14:40:01,673 INFO    Thread-13 :406526 [dir_watcher.py:_on_file_created():271] file/dir created: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/conda-environment.yaml
+2024-05-18 14:40:03,385 DEBUG   HandlerThread:406526 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-18 14:40:03,386 INFO    HandlerThread:406526 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-18 14:40:03,393 DEBUG   SenderThread:406526 [sender.py:send():378] send: files
+2024-05-18 14:40:03,393 INFO    SenderThread:406526 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-18 14:40:03,517 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-18 14:40:03,517 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: python_packages
+2024-05-18 14:40:03,518 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-18 14:40:03,519 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: stop_status
+2024-05-18 14:40:03,672 INFO    Thread-13 :406526 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/conda-environment.yaml
+2024-05-18 14:40:03,672 INFO    Thread-13 :406526 [dir_watcher.py:_on_file_created():271] file/dir created: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/requirements.txt
+2024-05-18 14:40:03,673 INFO    Thread-13 :406526 [dir_watcher.py:_on_file_created():271] file/dir created: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/wandb-metadata.json
+2024-05-18 14:40:03,760 DEBUG   SenderThread:406526 [sender.py:send():378] send: telemetry
+2024-05-18 14:40:03,917 INFO    wandb-upload_0:406526 [upload_job.py:push():130] Uploaded file /tmp/tmp5tupwe09wandb/taw02tk4-wandb-metadata.json
+2024-05-18 14:40:04,673 INFO    Thread-13 :406526 [dir_watcher.py:_on_file_created():271] file/dir created: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/output.log
+2024-05-18 14:40:05,308 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: status_report
+2024-05-18 14:40:06,674 INFO    Thread-13 :406526 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/output.log
+2024-05-18 14:40:08,682 DEBUG   SenderThread:406526 [sender.py:send():378] send: exit
+2024-05-18 14:40:08,682 INFO    SenderThread:406526 [sender.py:send_exit():585] handling exit code: 1
+2024-05-18 14:40:08,682 INFO    SenderThread:406526 [sender.py:send_exit():587] handling runtime: 7
+2024-05-18 14:40:08,683 INFO    SenderThread:406526 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-18 14:40:08,683 INFO    SenderThread:406526 [sender.py:send_exit():593] send defer
+2024-05-18 14:40:08,684 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:08,684 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 0
+2024-05-18 14:40:08,684 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:08,685 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-05-18 14:40:08,685 INFO    SenderThread:406526 [sender.py:transition_state():613] send defer: 1
+2024-05-18 14:40:08,685 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:08,685 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 1
+2024-05-18 14:40:08,685 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:08,686 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-05-18 14:40:08,686 INFO    SenderThread:406526 [sender.py:transition_state():613] send defer: 2
+2024-05-18 14:40:08,686 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:08,686 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 2
+2024-05-18 14:40:08,686 INFO    HandlerThread:406526 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-18 14:40:08,686 DEBUG   SystemMonitor:406526 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-18 14:40:08,687 INFO    HandlerThread:406526 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-18 14:40:08,687 DEBUG   SystemMonitor:406526 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-18 14:40:08,688 INFO    HandlerThread:406526 [interfaces.py:finish():200] Joined disk monitor
+2024-05-18 14:40:08,688 DEBUG   SystemMonitor:406526 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-18 14:40:08,691 INFO    HandlerThread:406526 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-18 14:40:08,691 INFO    HandlerThread:406526 [interfaces.py:finish():200] Joined memory monitor
+2024-05-18 14:40:08,691 INFO    HandlerThread:406526 [interfaces.py:finish():200] Joined network monitor
+2024-05-18 14:40:08,692 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:08,692 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-05-18 14:40:08,692 INFO    SenderThread:406526 [sender.py:transition_state():613] send defer: 3
+2024-05-18 14:40:08,692 DEBUG   SenderThread:406526 [sender.py:send():378] send: stats
+2024-05-18 14:40:08,693 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:08,693 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 3
+2024-05-18 14:40:08,694 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:08,694 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-05-18 14:40:08,694 INFO    SenderThread:406526 [sender.py:transition_state():613] send defer: 4
+2024-05-18 14:40:08,694 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:08,694 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 4
+2024-05-18 14:40:08,695 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:08,695 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-05-18 14:40:08,695 INFO    SenderThread:406526 [sender.py:transition_state():613] send defer: 5
+2024-05-18 14:40:08,695 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:08,695 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 5
+2024-05-18 14:40:08,696 DEBUG   SenderThread:406526 [sender.py:send():378] send: summary
+2024-05-18 14:40:08,705 INFO    SenderThread:406526 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-18 14:40:08,705 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:08,705 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-05-18 14:40:08,705 INFO    SenderThread:406526 [sender.py:transition_state():613] send defer: 6
+2024-05-18 14:40:08,705 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:08,705 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 6
+2024-05-18 14:40:08,706 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:08,706 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-05-18 14:40:08,709 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: status_report
+2024-05-18 14:40:08,841 INFO    SenderThread:406526 [sender.py:transition_state():613] send defer: 7
+2024-05-18 14:40:08,841 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:08,841 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 7
+2024-05-18 14:40:08,841 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:08,841 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-05-18 14:40:09,675 INFO    Thread-13 :406526 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/config.yaml
+2024-05-18 14:40:09,676 INFO    Thread-13 :406526 [dir_watcher.py:_on_file_created():271] file/dir created: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/wandb-summary.json
+2024-05-18 14:40:09,682 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-18 14:40:10,339 INFO    SenderThread:406526 [sender.py:transition_state():613] send defer: 8
+2024-05-18 14:40:10,339 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: poll_exit
+2024-05-18 14:40:10,340 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:10,340 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 8
+2024-05-18 14:40:10,341 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:10,341 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-05-18 14:40:10,341 INFO    SenderThread:406526 [sender.py:transition_state():613] send defer: 9
+2024-05-18 14:40:10,341 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:10,341 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 9
+2024-05-18 14:40:10,342 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:10,342 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-05-18 14:40:10,342 INFO    SenderThread:406526 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-18 14:40:10,676 INFO    Thread-13 :406526 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/output.log
+2024-05-18 14:40:10,677 INFO    SenderThread:406526 [dir_watcher.py:finish():388] scan: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files
+2024-05-18 14:40:10,678 INFO    SenderThread:406526 [dir_watcher.py:finish():402] scan save: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/config.yaml config.yaml
+2024-05-18 14:40:10,678 INFO    SenderThread:406526 [dir_watcher.py:finish():402] scan save: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/conda-environment.yaml conda-environment.yaml
+2024-05-18 14:40:10,678 INFO    SenderThread:406526 [dir_watcher.py:finish():402] scan save: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/wandb-metadata.json wandb-metadata.json
+2024-05-18 14:40:10,679 INFO    SenderThread:406526 [dir_watcher.py:finish():402] scan save: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/requirements.txt requirements.txt
+2024-05-18 14:40:10,679 INFO    SenderThread:406526 [dir_watcher.py:finish():402] scan save: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/output.log output.log
+2024-05-18 14:40:10,687 INFO    SenderThread:406526 [dir_watcher.py:finish():402] scan save: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/wandb-summary.json wandb-summary.json
+2024-05-18 14:40:10,688 INFO    SenderThread:406526 [sender.py:transition_state():613] send defer: 10
+2024-05-18 14:40:10,694 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:10,694 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 10
+2024-05-18 14:40:10,707 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:10,707 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-05-18 14:40:10,708 INFO    SenderThread:406526 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-18 14:40:10,709 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-18 14:40:10,710 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: poll_exit
+2024-05-18 14:40:11,052 INFO    wandb-upload_0:406526 [upload_job.py:push():130] Uploaded file /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/conda-environment.yaml
+2024-05-18 14:40:11,080 INFO    wandb-upload_1:406526 [upload_job.py:push():130] Uploaded file /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/config.yaml
+2024-05-18 14:40:11,217 INFO    wandb-upload_4:406526 [upload_job.py:push():130] Uploaded file /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/wandb-summary.json
+2024-05-18 14:40:11,224 INFO    wandb-upload_3:406526 [upload_job.py:push():130] Uploaded file /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/output.log
+2024-05-18 14:40:11,234 INFO    wandb-upload_2:406526 [upload_job.py:push():130] Uploaded file /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/files/requirements.txt
+2024-05-18 14:40:11,435 INFO    Thread-12 (_thread_body):406526 [sender.py:transition_state():613] send defer: 11
+2024-05-18 14:40:11,435 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:11,435 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 11
+2024-05-18 14:40:11,436 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:11,436 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-05-18 14:40:11,436 INFO    SenderThread:406526 [file_pusher.py:join():175] waiting for file pusher
+2024-05-18 14:40:11,437 INFO    SenderThread:406526 [sender.py:transition_state():613] send defer: 12
+2024-05-18 14:40:11,437 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:11,437 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 12
+2024-05-18 14:40:11,438 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:11,438 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-05-18 14:40:11,438 INFO    SenderThread:406526 [file_stream.py:finish():601] file stream finish called
+2024-05-18 14:40:11,610 INFO    SenderThread:406526 [file_stream.py:finish():605] file stream finish is done
+2024-05-18 14:40:11,610 INFO    SenderThread:406526 [sender.py:transition_state():613] send defer: 13
+2024-05-18 14:40:11,611 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:11,611 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 13
+2024-05-18 14:40:11,612 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:11,612 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-05-18 14:40:11,612 INFO    SenderThread:406526 [sender.py:transition_state():613] send defer: 14
+2024-05-18 14:40:11,612 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 14:40:11,613 INFO    HandlerThread:406526 [handler.py:handle_request_defer():184] handle defer: 14
+2024-05-18 14:40:11,613 DEBUG   SenderThread:406526 [sender.py:send():378] send: final
+2024-05-18 14:40:11,614 DEBUG   SenderThread:406526 [sender.py:send():378] send: footer
+2024-05-18 14:40:11,614 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: defer
+2024-05-18 14:40:11,614 INFO    SenderThread:406526 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-05-18 14:40:11,615 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-18 14:40:11,616 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: poll_exit
+2024-05-18 14:40:11,617 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-18 14:40:11,617 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: poll_exit
+2024-05-18 14:40:11,618 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: server_info
+2024-05-18 14:40:11,620 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: get_summary
+2024-05-18 14:40:11,620 DEBUG   SenderThread:406526 [sender.py:send_request():405] send_request: server_info
+2024-05-18 14:40:11,620 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: sampled_history
+2024-05-18 14:40:11,624 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: internal_messages
+2024-05-18 14:40:11,747 INFO    MainThread:406526 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-18 14:40:11,747 INFO    MainThread:406526 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-05-18 14:40:11,747 INFO    MainThread:406526 [wandb_run.py:_footer_sync_info():3953] logging synced files
+2024-05-18 14:40:11,748 DEBUG   HandlerThread:406526 [handler.py:handle_request():158] handle_request: shutdown
+2024-05-18 14:40:11,748 INFO    HandlerThread:406526 [handler.py:finish():882] shutting down handler
+2024-05-18 14:40:12,619 INFO    WriterThread:406526 [datastore.py:close():296] close: /Data/harold.ngoupeyou/cheese_classification_challenge/wandb/run-20240518_144000-iezsjixg/run-iezsjixg.wandb
+2024-05-18 14:40:12,747 INFO    SenderThread:406526 [sender.py:finish():1545] shutting down sender
+2024-05-18 14:40:12,747 INFO    SenderThread:406526 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-18 14:40:12,747 INFO    SenderThread:406526 [file_pusher.py:join():175] waiting for file pusher

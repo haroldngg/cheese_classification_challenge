@@ -1,0 +1,6 @@
+wandb_version: 1
+
+epochs:
+  value: 12
+optim.lr:
+  value: 0.00828423452762867

@@ -1,0 +1,50 @@
+Using cache found in /users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/users/eleves-a/2022/noam-joud-harold.ngoupeyou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[2024-05-18 21:42:33,749][dinov2][INFO] - using MLP layer as FFN
+
+
+
+
+
+
+
+
+
+
+
+ 24%|████████████████████████████▋                                                                                           | 11/46 [14:10<45:05, 77.31s/it]
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Data/harold.ngoupeyou/cheese_classification_challenge/train.py", line 30, in train
+    for i, batch in enumerate(train_loader):
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1346, in _next_data
+    return self._process_data(data)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1372, in _process_data
+    data.reraise()
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/torch/_utils.py", line 705, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 419, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 419, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 245, in __getitem__
+    sample = self.loader(path)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 284, in default_loader
+    return pil_loader(path)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 262, in pil_loader
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Data/harold.ngoupeyou/cheese_classification_challenge/dataset/train/advanced_prompt_advanced_models/00-v2/POULIGNY SAINT- PIERRE/000105.jpg'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

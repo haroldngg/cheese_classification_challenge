@@ -1,0 +1,248 @@
+wandb_version: 1
+
+model:
+  desc: null
+  value:
+    instance:
+      _target_: models.dinov2.DinoV2Finetune
+      num_classes: 37
+      frozen: true
+      unfreeze_last_layer: true
+    name: DINOV2
+dataset:
+  desc: null
+  value:
+    train_transform:
+      _target_: torchvision.transforms.Compose
+      transforms:
+      - _target_: torchvision.transforms.RandomResizedCrop
+        size:
+        - 224
+        - 224
+      - _target_: torchvision.transforms.RandomRotation
+        degrees: 30
+      - _target_: torchvision.transforms.RandomHorizontalFlip
+      - _target_: torchvision.transforms.ColorJitter
+        brightness: 0.4
+        contrast: 0.4
+        saturation: 0.2
+        hue: 0.1
+      - _target_: torchvision.transforms.RandomAffine
+        degrees: 0
+        translate:
+        - 0.1
+        - 0.1
+      - _target_: torchvision.transforms.ToTensor
+      - _target_: torchvision.transforms.Normalize
+        mean:
+        - 0.485
+        - 0.456
+        - 0.406
+        std:
+        - 0.229
+        - 0.224
+        - 0.225
+    test_transform:
+      _target_: torchvision.transforms.Compose
+      transforms:
+      - _target_: torchvision.transforms.Resize
+        size:
+        - 224
+        - 224
+      - _target_: torchvision.transforms.ToTensor
+      - _target_: torchvision.transforms.Normalize
+        mean:
+        - 0.485
+        - 0.456
+        - 0.406
+        std:
+        - 0.229
+        - 0.224
+        - 0.225
+    name: advanced_prompt
+    num_classes: 37
+    batch_size: 128
+    num_workers: 8
+    train_path: /Data/harold.ngoupeyou/cheese_classification_challenge/dataset/train/advanced_prompt_advanced_models/00-v2
+    real_images_val_path: /Data/harold.ngoupeyou/cheese_classification_challenge/dataset/val_simplified
+    test_path: /Data/harold.ngoupeyou/cheese_classification_challenge/dataset/test
+optim:
+  desc: null
+  value:
+    _target_: torch.optim.AdamW
+    lr: 1.0e-05
+    betas:
+    - 0.9
+    - 0.999
+loss_fn:
+  desc: null
+  value:
+    _partial_: true
+    _target_: torch.nn.functional.cross_entropy
+    reduction: mean
+    label_smoothing: 0.05
+datamodule:
+  desc: null
+  value:
+    _target_: data.datamodule.DataModule
+    train_dataset_path: /Data/harold.ngoupeyou/cheese_classification_challenge/dataset/train/advanced_prompt_advanced_models/00-v2
+    real_images_val_path: /Data/harold.ngoupeyou/cheese_classification_challenge/dataset/val_simplified
+    train_transform:
+      _target_: torchvision.transforms.Compose
+      transforms:
+      - _target_: torchvision.transforms.RandomResizedCrop
+        size:
+        - 224
+        - 224
+      - _target_: torchvision.transforms.RandomRotation
+        degrees: 30
+      - _target_: torchvision.transforms.RandomHorizontalFlip
+      - _target_: torchvision.transforms.ColorJitter
+        brightness: 0.4
+        contrast: 0.4
+        saturation: 0.2
+        hue: 0.1
+      - _target_: torchvision.transforms.RandomAffine
+        degrees: 0
+        translate:
+        - 0.1
+        - 0.1
+      - _target_: torchvision.transforms.ToTensor
+      - _target_: torchvision.transforms.Normalize
+        mean:
+        - 0.485
+        - 0.456
+        - 0.406
+        std:
+        - 0.229
+        - 0.224
+        - 0.225
+    val_transform:
+      _target_: torchvision.transforms.Compose
+      transforms:
+      - _target_: torchvision.transforms.Resize
+        size:
+        - 224
+        - 224
+      - _target_: torchvision.transforms.ToTensor
+      - _target_: torchvision.transforms.Normalize
+        mean:
+        - 0.485
+        - 0.456
+        - 0.406
+        std:
+        - 0.229
+        - 0.224
+        - 0.225
+    batch_size: 32
+    num_workers: 8
+data_dir:
+  desc: null
+  value: /Data/harold.ngoupeyou/cheese_classification_challenge/dataset
+root_dir:
+  desc: null
+  value: /Data/harold.ngoupeyou/cheese_classification_challenge
+checkpoint_path:
+  desc: null
+  value: /Data/harold.ngoupeyou/cheese_classification_challenge/checkpoints/DINOV2_advanced_prompt.pt
+experiment_name:
+  desc: null
+  value: DINOV2_advanced_prompt
+epochs:
+  desc: null
+  value: 35
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.14
+    cli_version: 0.17.0
+    framework: huggingface
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1716060690
+    t:
+      1:
+      - 1
+      - 50
+      - 55
+      2:
+      - 1
+      - 11
+      - 41
+      - 49
+      - 50
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      - 37
+      4: 3.10.14
+      5: 0.17.0
+      8:
+      - 5
+      13: linux-x86_64
+    visualize:
+      synthetic_val/confusion_matrix:
+        panel_type: Vega2
+        panel_config:
+          panelDefId: wandb/confusion_matrix/v1
+          fieldSettings:
+            Actual: Actual
+            Predicted: Predicted
+            nPredictions: nPredictions
+          stringSettings:
+            title: ''
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - name: runSets
+              args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - name: id
+                fields: []
+              - name: name
+                fields: []
+              - name: _defaultColorIndex
+                fields: []
+              - name: summaryTable
+                args:
+                - name: tableKey
+                  value: synthetic_val/confusion_matrix_table
+                fields: []
+      real_val/confusion_matrix:
+        panel_type: Vega2
+        panel_config:
+          panelDefId: wandb/confusion_matrix/v1
+          fieldSettings:
+            Actual: Actual
+            Predicted: Predicted
+            nPredictions: nPredictions
+          stringSettings:
+            title: ''
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - name: runSets
+              args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - name: id
+                fields: []
+              - name: name
+                fields: []
+              - name: _defaultColorIndex
+                fields: []
+              - name: summaryTable
+                args:
+                - name: tableKey
+                  value: real_val/confusion_matrix_table
+                fields: []
+lr:
+  desc: null
+  value: 0.00011849631618732372

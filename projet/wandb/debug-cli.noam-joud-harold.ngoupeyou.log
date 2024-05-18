@@ -1,0 +1,700 @@
+2024-05-18 12:54:40 INFO Running runs: []
+2024-05-18 12:54:41 INFO Agent received command: run
+2024-05-18 12:54:41 INFO Agent starting run with config:
+	batch_size: 47
+	epochs: 19
+	lr: 0.0007027515079076329
+2024-05-18 12:54:41 INFO About to run command: /usr/bin/env python train.py --batch_size=47 --epochs=19 --lr=0.0007027515079076329
+2024-05-18 12:54:46 INFO Running runs: ['qcdv57tu']
+2024-05-18 12:54:46 INFO Cleaning up finished run: qcdv57tu
+2024-05-18 12:54:46 INFO Agent received command: run
+2024-05-18 12:54:46 INFO Agent starting run with config:
+	batch_size: 114
+	epochs: 12
+	lr: 5.0136601390542274e-05
+2024-05-18 12:54:46 INFO About to run command: /usr/bin/env python train.py --batch_size=114 --epochs=12 --lr=5.0136601390542274e-05
+2024-05-18 12:54:51 INFO Running runs: ['085xr60t']
+2024-05-18 12:54:51 INFO Cleaning up finished run: 085xr60t
+2024-05-18 12:54:51 INFO Agent received command: run
+2024-05-18 12:54:51 INFO Agent starting run with config:
+	batch_size: 107
+	epochs: 18
+	lr: 2.8488687923164792e-05
+2024-05-18 12:54:51 INFO About to run command: /usr/bin/env python train.py --batch_size=107 --epochs=18 --lr=2.8488687923164792e-05
+2024-05-18 12:54:56 INFO Running runs: ['wgwmjkru']
+2024-05-18 12:54:56 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 12:54:56 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2024-05-18 12:56:24 INFO Running runs: []
+2024-05-18 12:56:24 INFO Agent received command: run
+2024-05-18 12:56:24 INFO Agent starting run with config:
+	batch_size: 50
+	epochs: 2
+	lr: 0.00012931401956445797
+2024-05-18 12:56:24 INFO About to run command: /usr/bin/env python train.py --batch_size=50 --epochs=2 --lr=0.00012931401956445797
+2024-05-18 12:56:29 INFO Running runs: ['fq2wbcix']
+2024-05-18 12:56:29 INFO Cleaning up finished run: fq2wbcix
+2024-05-18 12:56:29 INFO Agent received command: run
+2024-05-18 12:56:29 INFO Agent starting run with config:
+	batch_size: 116
+	epochs: 15
+	lr: 0.0005499459984504771
+2024-05-18 12:56:29 INFO About to run command: /usr/bin/env python train.py --batch_size=116 --epochs=15 --lr=0.0005499459984504771
+2024-05-18 12:56:34 INFO Running runs: ['gnq7i031']
+2024-05-18 12:56:34 INFO Cleaning up finished run: gnq7i031
+2024-05-18 12:56:35 INFO Agent received command: run
+2024-05-18 12:56:35 INFO Agent starting run with config:
+	batch_size: 36
+	epochs: 3
+	lr: 0.0006115112919543021
+2024-05-18 12:56:35 INFO About to run command: /usr/bin/env python train.py --batch_size=36 --epochs=3 --lr=0.0006115112919543021
+2024-05-18 12:56:40 INFO Running runs: ['2vwc7vqw']
+2024-05-18 12:56:40 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 12:56:40 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2024-05-18 13:06:16 INFO Running runs: []
+2024-05-18 13:06:16 INFO Agent received command: run
+2024-05-18 13:06:16 INFO Agent starting run with config:
+	batch_size: 61
+	epochs: 16
+	lr: 0.0008107183482003018
+2024-05-18 13:06:16 INFO About to run command: /usr/bin/env python train.py --batch_size=61 --epochs=16 --lr=0.0008107183482003018
+2024-05-18 13:06:21 INFO Running runs: ['k2zwy45s']
+2024-05-18 13:06:21 INFO Cleaning up finished run: k2zwy45s
+2024-05-18 13:06:22 INFO Agent received command: run
+2024-05-18 13:06:22 INFO Agent starting run with config:
+	batch_size: 79
+	epochs: 6
+	lr: 0.0005555446807338188
+2024-05-18 13:06:22 INFO About to run command: /usr/bin/env python train.py --batch_size=79 --epochs=6 --lr=0.0005555446807338188
+2024-05-18 13:06:27 INFO Running runs: ['l9vzqej4']
+2024-05-18 13:06:27 INFO Cleaning up finished run: l9vzqej4
+2024-05-18 13:06:27 INFO Agent received command: run
+2024-05-18 13:06:27 INFO Agent starting run with config:
+	batch_size: 84
+	epochs: 16
+	lr: 0.0008267498030047874
+2024-05-18 13:06:27 INFO About to run command: /usr/bin/env python train.py --batch_size=84 --epochs=16 --lr=0.0008267498030047874
+2024-05-18 13:06:32 INFO Running runs: ['gj28dzh3']
+2024-05-18 13:06:32 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 13:06:32 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2024-05-18 13:10:17 INFO Running runs: []
+2024-05-18 13:10:17 INFO Agent received command: run
+2024-05-18 13:10:17 INFO Agent starting run with config:
+	batch_size: 39
+	epochs: 18
+	lr: 0.0007531369010758444
+2024-05-18 13:10:17 INFO About to run command: /usr/bin/env python train.py --batch_size=39 --epochs=18 --lr=0.0007531369010758444
+2024-05-18 13:10:22 INFO Running runs: ['pjs7aqki']
+2024-05-18 13:10:22 INFO Cleaning up finished run: pjs7aqki
+2024-05-18 13:10:23 INFO Agent received command: run
+2024-05-18 13:10:23 INFO Agent starting run with config:
+	batch_size: 83
+	epochs: 7
+	lr: 0.0005823444477360431
+2024-05-18 13:10:23 INFO About to run command: /usr/bin/env python train.py --batch_size=83 --epochs=7 --lr=0.0005823444477360431
+2024-05-18 13:10:28 INFO Running runs: ['la1k0q9u']
+2024-05-18 13:10:28 INFO Cleaning up finished run: la1k0q9u
+2024-05-18 13:10:31 INFO Agent received command: run
+2024-05-18 13:10:31 INFO Agent starting run with config:
+	batch_size: 41
+	epochs: 3
+	lr: 0.0006927752313826665
+2024-05-18 13:10:31 INFO About to run command: /usr/bin/env python train.py --batch_size=41 --epochs=3 --lr=0.0006927752313826665
+2024-05-18 13:10:36 INFO Running runs: ['4ir7edsq']
+2024-05-18 13:10:36 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 13:10:36 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2024-05-18 13:15:58 INFO Running runs: []
+2024-05-18 13:15:59 INFO Agent received command: run
+2024-05-18 13:15:59 INFO Agent starting run with config:
+	batch_size: 72
+	epochs: 39
+	lr: 1.114260442527542e-05
+2024-05-18 13:15:59 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${batch_size} epochs=${epochs} optim.lr=${lr}
+2024-05-18 13:16:04 INFO Running runs: ['yg2ji323']
+2024-05-18 13:16:04 INFO Cleaning up finished run: yg2ji323
+2024-05-18 13:16:04 INFO Agent received command: run
+2024-05-18 13:16:04 INFO Agent starting run with config:
+	batch_size: 66
+	epochs: 37
+	lr: 0.0037383399581529296
+2024-05-18 13:16:04 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${batch_size} epochs=${epochs} optim.lr=${lr}
+2024-05-18 13:16:09 INFO Running runs: ['mb4iawme']
+2024-05-18 13:16:09 INFO Cleaning up finished run: mb4iawme
+2024-05-18 13:16:09 INFO Agent received command: run
+2024-05-18 13:16:09 INFO Agent starting run with config:
+	batch_size: 52
+	epochs: 18
+	lr: 0.004888484721563768
+2024-05-18 13:16:09 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${batch_size} epochs=${epochs} optim.lr=${lr}
+2024-05-18 13:16:14 INFO Running runs: ['w5ckdipq']
+2024-05-18 13:16:14 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 13:16:14 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2024-05-18 13:17:49 INFO Running runs: []
+2024-05-18 13:17:49 INFO Agent received command: run
+2024-05-18 13:17:49 INFO Agent starting run with config:
+	batch_size: 68
+	epochs: 33
+	lr: 0.008150368460711585
+2024-05-18 13:17:49 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${batch_size} epochs=${epochs} optim.lr=${lr}
+2024-05-18 13:17:54 INFO Running runs: ['n69aqc8m']
+2024-05-18 13:18:35 INFO Cleaning up finished run: n69aqc8m
+2024-05-18 13:18:41 INFO Agent received command: run
+2024-05-18 13:18:41 INFO Agent starting run with config:
+	batch_size: 76
+	epochs: 25
+	lr: 0.0034434038505449746
+2024-05-18 13:18:41 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${batch_size} epochs=${epochs} optim.lr=${lr}
+2024-05-18 13:18:46 INFO Running runs: ['9l7ihn2m']
+2024-05-18 13:19:01 INFO Cleaning up finished run: 9l7ihn2m
+2024-05-18 13:19:01 INFO Agent received command: run
+2024-05-18 13:19:01 INFO Agent starting run with config:
+	batch_size: 61
+	epochs: 27
+	lr: 0.000503778493427293
+2024-05-18 13:19:01 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${batch_size} epochs=${epochs} optim.lr=${lr}
+2024-05-18 13:19:06 INFO Running runs: ['6tit78ti']
+2024-05-18 13:19:22 INFO Cleaning up finished run: 6tit78ti
+2024-05-18 13:19:22 INFO Agent received command: run
+2024-05-18 13:19:22 INFO Agent starting run with config:
+	batch_size: 107
+	epochs: 37
+	lr: 0.0018878993768816756
+2024-05-18 13:19:22 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${batch_size} epochs=${epochs} optim.lr=${lr}
+2024-05-18 13:19:27 INFO Running runs: ['xnn68c1g']
+2024-05-18 13:19:42 INFO Cleaning up finished run: xnn68c1g
+2024-05-18 13:19:43 INFO Agent received command: run
+2024-05-18 13:19:43 INFO Agent starting run with config:
+	batch_size: 96
+	epochs: 42
+	lr: 0.0069404224326316205
+2024-05-18 13:19:43 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${batch_size} epochs=${epochs} optim.lr=${lr}
+2024-05-18 13:19:48 INFO Running runs: ['d1gbn7x1']
+2024-05-18 13:22:16 INFO Running runs: []
+2024-05-18 13:22:16 INFO Agent received command: run
+2024-05-18 13:22:16 INFO Agent starting run with config:
+	batch_size: 72
+	epochs: 39
+	lr: 1.114260442527542e-05
+2024-05-18 13:22:16 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=\${batch_size} epochs=\${epochs} optim.lr=\${lr}
+2024-05-18 13:22:21 INFO Running runs: ['pqmx4ys0']
+2024-05-18 13:22:31 INFO Cleaning up finished run: pqmx4ys0
+2024-05-18 13:22:36 INFO Agent received command: run
+2024-05-18 13:22:36 INFO Agent starting run with config:
+	batch_size: 94
+	epochs: 12
+	lr: 0.00652089213442842
+2024-05-18 13:22:36 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=\${batch_size} epochs=\${epochs} optim.lr=\${lr}
+2024-05-18 13:22:41 INFO Running runs: ['ctpnkiu7']
+2024-05-18 13:22:56 INFO Cleaning up finished run: ctpnkiu7
+2024-05-18 13:22:57 INFO Agent received command: run
+2024-05-18 13:22:57 INFO Agent starting run with config:
+	batch_size: 92
+	epochs: 46
+	lr: 0.0029366890427564335
+2024-05-18 13:22:57 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=\${batch_size} epochs=\${epochs} optim.lr=\${lr}
+2024-05-18 13:23:02 INFO Running runs: ['l463xtqk']
+2024-05-18 13:23:12 INFO Cleaning up finished run: l463xtqk
+2024-05-18 13:23:12 INFO Agent received command: run
+2024-05-18 13:23:12 INFO Agent starting run with config:
+	batch_size: 97
+	epochs: 23
+	lr: 0.008889413529560746
+2024-05-18 13:23:12 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=\${batch_size} epochs=\${epochs} optim.lr=\${lr}
+2024-05-18 13:23:17 INFO Running runs: ['y5baqsic']
+2024-05-18 13:23:33 INFO Cleaning up finished run: y5baqsic
+2024-05-18 13:23:33 INFO Agent received command: run
+2024-05-18 13:23:33 INFO Agent starting run with config:
+	batch_size: 58
+	epochs: 10
+	lr: 0.006378932807548903
+2024-05-18 13:23:33 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=\${batch_size} epochs=\${epochs} optim.lr=\${lr}
+2024-05-18 13:25:20 INFO Running runs: []
+2024-05-18 13:25:21 INFO Agent received command: run
+2024-05-18 13:25:21 INFO Agent starting run with config:
+	batch_size: 72
+	epochs: 39
+2024-05-18 13:25:21 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${batch_size} epochs=${epochs}
+2024-05-18 13:25:26 INFO Running runs: ['kgy9th7g']
+2024-05-18 13:25:36 INFO Cleaning up finished run: kgy9th7g
+2024-05-18 13:25:40 INFO Agent received command: run
+2024-05-18 13:25:40 INFO Agent starting run with config:
+	batch_size: 110
+	epochs: 38
+2024-05-18 13:25:40 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${batch_size} epochs=${epochs}
+2024-05-18 13:26:58 INFO Running runs: []
+2024-05-18 13:26:58 INFO Agent received command: run
+2024-05-18 13:26:58 INFO Agent starting run with config:
+	epochs: 27
+2024-05-18 13:26:58 INFO About to run command: /usr/bin/env python train.py epochs=${epochs}
+2024-05-18 13:27:03 INFO Running runs: ['09v17mij']
+2024-05-18 13:27:14 INFO Cleaning up finished run: 09v17mij
+2024-05-18 13:27:18 INFO Agent received command: run
+2024-05-18 13:27:18 INFO Agent starting run with config:
+	epochs: 42
+2024-05-18 13:27:18 INFO About to run command: /usr/bin/env python train.py epochs=${epochs}
+2024-05-18 13:27:23 INFO Running runs: ['s204o6d1']
+2024-05-18 13:27:39 INFO Cleaning up finished run: s204o6d1
+2024-05-18 13:27:42 INFO Agent received command: run
+2024-05-18 13:27:42 INFO Agent starting run with config:
+	epochs: 15
+2024-05-18 13:27:42 INFO About to run command: /usr/bin/env python train.py epochs=${epochs}
+2024-05-18 13:27:47 INFO Running runs: ['l088gzc1']
+2024-05-18 13:28:02 INFO Cleaning up finished run: l088gzc1
+2024-05-18 13:28:03 INFO Agent received command: run
+2024-05-18 13:28:03 INFO Agent starting run with config:
+	epochs: 24
+2024-05-18 13:28:03 INFO About to run command: /usr/bin/env python train.py epochs=${epochs}
+2024-05-18 13:28:08 INFO Running runs: ['0hka6za0']
+2024-05-18 13:28:23 INFO Cleaning up finished run: 0hka6za0
+2024-05-18 13:28:25 INFO Agent received command: run
+2024-05-18 13:28:25 INFO Agent starting run with config:
+	epochs: 33
+2024-05-18 13:28:25 INFO About to run command: /usr/bin/env python train.py epochs=${epochs}
+2024-05-18 13:28:30 INFO Running runs: ['lihcy8hj']
+2024-05-18 13:28:45 ERROR Detected 5 failed runs in a row, shutting down.
+2024-05-18 13:28:45 INFO To change this value set WANDB_AGENT_MAX_INITIAL_FAILURES=val
+2024-05-18 13:59:06 INFO Running runs: []
+2024-05-18 13:59:06 INFO Agent received command: run
+2024-05-18 13:59:06 INFO Agent starting run with config:
+	datamodule.batch_size: 72
+	epochs: 39
+	optim.lr: 1.011323106917144e-05
+2024-05-18 13:59:06 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 13:59:11 INFO Running runs: ['pzdq8s2w']
+2024-05-18 13:59:16 INFO Cleaning up finished run: pzdq8s2w
+2024-05-18 13:59:20 INFO Agent received command: run
+2024-05-18 13:59:20 INFO Agent starting run with config:
+	datamodule.batch_size: 121
+	epochs: 20
+	optim.lr: 0.00031917041185702057
+2024-05-18 13:59:20 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 13:59:25 INFO Running runs: ['hiq6e4yh']
+2024-05-18 13:59:36 INFO Cleaning up finished run: hiq6e4yh
+2024-05-18 13:59:36 INFO Agent received command: run
+2024-05-18 13:59:36 INFO Agent starting run with config:
+	datamodule.batch_size: 37
+	epochs: 30
+	optim.lr: 0.00045903452913659
+2024-05-18 13:59:36 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 13:59:41 INFO Running runs: ['1abxef4f']
+2024-05-18 13:59:51 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 13:59:51 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2024-05-18 14:03:51 INFO Running runs: []
+2024-05-18 14:03:52 INFO Agent received command: run
+2024-05-18 14:03:52 INFO Agent starting run with config:
+	datamodule.batch_size: 33
+	epochs: 30
+	optim.lr: 0.0008024585063756236
+2024-05-18 14:03:52 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:03:57 INFO Running runs: ['4pd8w4y3']
+2024-05-18 14:04:02 INFO Cleaning up finished run: 4pd8w4y3
+2024-05-18 14:04:07 INFO Agent received command: run
+2024-05-18 14:04:07 INFO Agent starting run with config:
+	datamodule.batch_size: 51
+	epochs: 17
+	optim.lr: 0.00033607542267873383
+2024-05-18 14:04:07 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:04:12 INFO Running runs: ['3ziartf2']
+2024-05-18 14:04:22 INFO Cleaning up finished run: 3ziartf2
+2024-05-18 14:04:23 INFO Agent received command: run
+2024-05-18 14:04:23 INFO Agent starting run with config:
+	datamodule.batch_size: 74
+	epochs: 13
+	optim.lr: 0.00012038710128379904
+2024-05-18 14:04:23 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:04:28 INFO Running runs: ['l5keh8ao']
+2024-05-18 14:04:38 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 14:04:38 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2024-05-18 14:11:22 INFO Running runs: []
+2024-05-18 14:11:23 INFO Agent received command: run
+2024-05-18 14:11:23 INFO Agent starting run with config:
+	datamodule.batch_size: 34
+	epochs: 45
+	optim.lr: 0.008576334647301023
+2024-05-18 14:11:23 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:11:28 INFO Running runs: ['c1mmg2vq']
+2024-05-18 14:11:33 INFO Cleaning up finished run: c1mmg2vq
+2024-05-18 14:15:35 INFO Running runs: []
+2024-05-18 14:15:35 INFO Agent received command: run
+2024-05-18 14:15:35 INFO Agent starting run with config:
+	datamodule.batch_size: 55
+	epochs: 45
+	optim.lr: 0.0014968828307668014
+2024-05-18 14:15:35 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:15:40 INFO Running runs: ['t3me51w8']
+2024-05-18 14:15:45 INFO Cleaning up finished run: t3me51w8
+2024-05-18 14:15:50 INFO Agent received command: run
+2024-05-18 14:15:50 INFO Agent starting run with config:
+	datamodule.batch_size: 102
+	epochs: 22
+	optim.lr: 0.009966209052144449
+2024-05-18 14:15:50 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:15:55 INFO Running runs: ['g68g70xb']
+2024-05-18 14:16:05 INFO Cleaning up finished run: g68g70xb
+2024-05-18 14:16:06 INFO Agent received command: run
+2024-05-18 14:16:06 INFO Agent starting run with config:
+	datamodule.batch_size: 74
+	epochs: 27
+	optim.lr: 0.007521590610486144
+2024-05-18 14:16:06 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:16:11 INFO Running runs: ['vzv6e8bt']
+2024-05-18 14:16:21 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 14:16:21 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2024-05-18 14:18:48 INFO Running runs: []
+2024-05-18 14:18:49 INFO Agent received command: run
+2024-05-18 14:18:49 INFO Agent starting run with config:
+	datamodule.batch_size: 91
+	epochs: 27
+	optim.lr: 0.00800091107428081
+2024-05-18 14:18:49 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:18:54 INFO Running runs: ['h1bep2ni']
+2024-05-18 14:18:59 INFO Cleaning up finished run: h1bep2ni
+2024-05-18 14:19:04 INFO Agent received command: run
+2024-05-18 14:19:04 INFO Agent starting run with config:
+	datamodule.batch_size: 124
+	epochs: 22
+	optim.lr: 0.00229511675150611
+2024-05-18 14:19:04 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:19:09 INFO Running runs: ['qmd8narh']
+2024-05-18 14:19:20 INFO Cleaning up finished run: qmd8narh
+2024-05-18 14:19:20 INFO Agent received command: run
+2024-05-18 14:19:20 INFO Agent starting run with config:
+	datamodule.batch_size: 93
+	epochs: 39
+	optim.lr: 0.002874856896106952
+2024-05-18 14:19:20 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:19:25 INFO Running runs: ['7k8wimls']
+2024-05-18 14:19:36 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 14:19:36 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2024-05-18 14:21:55 INFO Running runs: []
+2024-05-18 14:21:56 INFO Agent received command: run
+2024-05-18 14:21:56 INFO Agent starting run with config:
+	datamodule.batch_size: 120
+	epochs: 38
+	optim.lr: 0.006353824649121729
+2024-05-18 14:21:56 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:22:01 INFO Running runs: ['bjep6j5r']
+2024-05-18 14:22:06 INFO Cleaning up finished run: bjep6j5r
+2024-05-18 14:22:10 INFO Agent received command: run
+2024-05-18 14:22:10 INFO Agent starting run with config:
+	datamodule.batch_size: 51
+	epochs: 18
+	optim.lr: 0.006544052078921585
+2024-05-18 14:22:10 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:22:15 INFO Running runs: ['kai1eu5g']
+2024-05-18 14:23:47 INFO Running runs: []
+2024-05-18 14:23:48 INFO Agent received command: run
+2024-05-18 14:23:48 INFO Agent starting run with config:
+	datamodule.batch_size: 59
+	epochs: 35
+	optim.lr: 0.003867042216512206
+2024-05-18 14:23:48 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:23:53 INFO Running runs: ['hzhukfmm']
+2024-05-18 14:23:58 INFO Cleaning up finished run: hzhukfmm
+2024-05-18 14:24:03 INFO Agent received command: run
+2024-05-18 14:24:03 INFO Agent starting run with config:
+	datamodule.batch_size: 118
+	epochs: 42
+	optim.lr: 0.009550340409691382
+2024-05-18 14:24:03 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:24:08 INFO Running runs: ['5iyyyi2z']
+2024-05-18 14:24:18 INFO Cleaning up finished run: 5iyyyi2z
+2024-05-18 14:24:19 INFO Agent received command: run
+2024-05-18 14:24:19 INFO Agent starting run with config:
+	datamodule.batch_size: 113
+	epochs: 16
+	optim.lr: 0.005340710788072082
+2024-05-18 14:24:19 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=${datamodule.batch_size} epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:24:24 INFO Running runs: ['0ptht4a2']
+2024-05-18 14:24:34 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 14:24:34 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2024-05-18 14:27:19 INFO Running runs: []
+2024-05-18 14:27:21 INFO Agent received command: run
+2024-05-18 14:27:21 INFO Agent starting run with config:
+	datamodule.batch_size: 35
+	epochs: 37
+	optim.lr: 0.009079964735482029
+2024-05-18 14:27:21 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=datamodule.batch_size epochs=epochs optim.lr=optim.lr
+2024-05-18 14:27:26 INFO Running runs: ['4fn4q8uy']
+2024-05-18 14:27:31 INFO Cleaning up finished run: 4fn4q8uy
+2024-05-18 14:27:36 INFO Agent received command: run
+2024-05-18 14:27:36 INFO Agent starting run with config:
+	datamodule.batch_size: 101
+	epochs: 35
+	optim.lr: 0.007605119438850357
+2024-05-18 14:27:36 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=datamodule.batch_size epochs=epochs optim.lr=optim.lr
+2024-05-18 14:27:41 INFO Running runs: ['p9arzbdw']
+2024-05-18 14:27:51 INFO Cleaning up finished run: p9arzbdw
+2024-05-18 14:27:52 INFO Agent received command: run
+2024-05-18 14:27:52 INFO Agent starting run with config:
+	datamodule.batch_size: 89
+	epochs: 10
+	optim.lr: 0.00045856193495198634
+2024-05-18 14:27:52 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=datamodule.batch_size epochs=epochs optim.lr=optim.lr
+2024-05-18 14:27:57 INFO Running runs: ['9pzwkaqq']
+2024-05-18 14:28:07 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 14:28:07 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2024-05-18 14:30:56 INFO Running runs: []
+2024-05-18 14:30:56 INFO Agent received command: run
+2024-05-18 14:30:56 INFO Agent starting run with config:
+	datamodule.batch_size: 125
+	epochs: 46
+	optim.lr: 0.0030014809917211995
+2024-05-18 14:30:56 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=datamodule.batch_size epochs=epochs optim.lr=optim.lr
+2024-05-18 14:31:01 INFO Running runs: ['1t0hcwx7']
+2024-05-18 14:31:06 INFO Cleaning up finished run: 1t0hcwx7
+2024-05-18 14:31:11 INFO Agent received command: run
+2024-05-18 14:31:11 INFO Agent starting run with config:
+	datamodule.batch_size: 102
+	epochs: 25
+	optim.lr: 0.0062969689319500215
+2024-05-18 14:31:11 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=datamodule.batch_size epochs=epochs optim.lr=optim.lr
+2024-05-18 14:31:16 INFO Running runs: ['kf6khwvp']
+2024-05-18 14:31:26 INFO Cleaning up finished run: kf6khwvp
+2024-05-18 14:31:27 INFO Agent received command: run
+2024-05-18 14:31:27 INFO Agent starting run with config:
+	datamodule.batch_size: 114
+	epochs: 40
+	optim.lr: 0.0047995671172057375
+2024-05-18 14:31:27 INFO About to run command: /usr/bin/env python train.py datamodule.batch_size=datamodule.batch_size epochs=epochs optim.lr=optim.lr
+2024-05-18 14:31:32 INFO Running runs: ['b6aeqzcw']
+2024-05-18 14:31:42 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 14:31:42 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2024-05-18 14:35:07 INFO Running runs: []
+2024-05-18 14:35:07 INFO Agent received command: run
+2024-05-18 14:35:07 INFO Agent starting run with config:
+	epochs: 38
+	optim.lr: 0.005855761318548413
+2024-05-18 14:35:07 INFO About to run command: epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:35:07 ERROR Exception while processing command: {'run_id': '8rsdl7gf', 'program': 'train.py', 'type': 'run', 'args': {'epochs': {'value': 38}, 'optim.lr': {'value': 0.005855761318548413}}, 'runqueue_item_id': 'UnVuUXVldWVJdGVtOjU2MzU4OTk2NA==', 'logs': ['expected_improvement: nan', 'predicted_value: 0.0', 'predicted_value_std_dev: nan', 'success_probability: 1.0', 'warnings: \nSweep has no valid samples of the metric.'], 'run_storage_id': 'UnVuOnYxOjhyc2RsN2dmOmNoZWVzZV9jbGFzc2lmaWNhdGlvbl9jaGFsbGVuZ2U6aGFyb2xkbmc='}
+Traceback (most recent call last):
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 324, in _process_command
+    result = self._command_run(command)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 423, in _command_run
+    proc = AgentProcess(command=command_list, env=env)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 46, in __init__
+    self._popen = subprocess.Popen(command, env=env, **kwargs)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'epochs=${epochs}'
+2024-05-18 14:35:12 INFO Agent received command: run
+2024-05-18 14:35:12 INFO Agent starting run with config:
+	epochs: 20
+	optim.lr: 0.000581525069840555
+2024-05-18 14:35:12 INFO About to run command: epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:35:12 ERROR Exception while processing command: {'run_id': '822hug4n', 'program': 'train.py', 'type': 'run', 'args': {'epochs': {'value': 20}, 'optim.lr': {'value': 0.000581525069840555}}, 'runqueue_item_id': 'UnVuUXVldWVJdGVtOjU2MzU5MDAwNw==', 'logs': ['expected_improvement: nan', 'predicted_value: 0.0', 'predicted_value_std_dev: nan', 'success_probability: 1.0', 'warnings: \nSweep has no valid samples of the metric.'], 'run_storage_id': 'UnVuOnYxOjgyMmh1ZzRuOmNoZWVzZV9jbGFzc2lmaWNhdGlvbl9jaGFsbGVuZ2U6aGFyb2xkbmc='}
+Traceback (most recent call last):
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 324, in _process_command
+    result = self._command_run(command)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 423, in _command_run
+    proc = AgentProcess(command=command_list, env=env)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 46, in __init__
+    self._popen = subprocess.Popen(command, env=env, **kwargs)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'epochs=${epochs}'
+2024-05-18 14:35:18 INFO Agent received command: run
+2024-05-18 14:35:18 INFO Agent starting run with config:
+	epochs: 31
+	optim.lr: 0.008660153024781245
+2024-05-18 14:35:18 INFO About to run command: epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:35:18 ERROR Exception while processing command: {'run_id': 'ewq844b4', 'program': 'train.py', 'type': 'run', 'args': {'epochs': {'value': 31}, 'optim.lr': {'value': 0.008660153024781245}}, 'runqueue_item_id': 'UnVuUXVldWVJdGVtOjU2MzU5MDAyOA==', 'logs': ['expected_improvement: nan', 'predicted_value: 0.0', 'predicted_value_std_dev: nan', 'success_probability: 1.0', 'warnings: \nSweep has no valid samples of the metric.'], 'run_storage_id': 'UnVuOnYxOmV3cTg0NGI0OmNoZWVzZV9jbGFzc2lmaWNhdGlvbl9jaGFsbGVuZ2U6aGFyb2xkbmc='}
+Traceback (most recent call last):
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 324, in _process_command
+    result = self._command_run(command)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 423, in _command_run
+    proc = AgentProcess(command=command_list, env=env)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 46, in __init__
+    self._popen = subprocess.Popen(command, env=env, **kwargs)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'epochs=${epochs}'
+2024-05-18 14:35:23 INFO Agent received command: run
+2024-05-18 14:35:23 INFO Agent starting run with config:
+	epochs: 34
+	optim.lr: 0.003769753524294701
+2024-05-18 14:35:23 INFO About to run command: epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:35:23 ERROR Exception while processing command: {'run_id': 'gmms43r4', 'program': 'train.py', 'type': 'run', 'args': {'epochs': {'value': 34}, 'optim.lr': {'value': 0.003769753524294701}}, 'runqueue_item_id': 'UnVuUXVldWVJdGVtOjU2MzU5MDA0Mg==', 'logs': ['expected_improvement: nan', 'predicted_value: 0.0', 'predicted_value_std_dev: nan', 'success_probability: 1.0', 'warnings: \nSweep has no valid samples of the metric.'], 'run_storage_id': 'UnVuOnYxOmdtbXM0M3I0OmNoZWVzZV9jbGFzc2lmaWNhdGlvbl9jaGFsbGVuZ2U6aGFyb2xkbmc='}
+Traceback (most recent call last):
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 324, in _process_command
+    result = self._command_run(command)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 423, in _command_run
+    proc = AgentProcess(command=command_list, env=env)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 46, in __init__
+    self._popen = subprocess.Popen(command, env=env, **kwargs)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'epochs=${epochs}'
+2024-05-18 14:35:28 INFO Agent received command: run
+2024-05-18 14:35:28 INFO Agent starting run with config:
+	epochs: 32
+	optim.lr: 0.0033193745266576822
+2024-05-18 14:35:28 INFO About to run command: epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:35:28 ERROR Exception while processing command: {'run_id': '6dwvgyn0', 'program': 'train.py', 'type': 'run', 'args': {'epochs': {'value': 32}, 'optim.lr': {'value': 0.0033193745266576822}}, 'runqueue_item_id': 'UnVuUXVldWVJdGVtOjU2MzU5MDA1Ng==', 'logs': ['expected_improvement: nan', 'predicted_value: 0.0', 'predicted_value_std_dev: nan', 'success_probability: 1.0', 'warnings: \nSweep has no valid samples of the metric.'], 'run_storage_id': 'UnVuOnYxOjZkd3ZneW4wOmNoZWVzZV9jbGFzc2lmaWNhdGlvbl9jaGFsbGVuZ2U6aGFyb2xkbmc='}
+Traceback (most recent call last):
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 324, in _process_command
+    result = self._command_run(command)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 423, in _command_run
+    proc = AgentProcess(command=command_list, env=env)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/site-packages/wandb/wandb_agent.py", line 46, in __init__
+    self._popen = subprocess.Popen(command, env=env, **kwargs)
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Data/harold.ngoupeyou/cheese_challenge/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'epochs=${epochs}'
+2024-05-18 14:36:59 INFO Running runs: []
+2024-05-18 14:37:00 INFO Agent received command: run
+2024-05-18 14:37:00 INFO Agent starting run with config:
+	epochs: 35
+	optim.lr: 0.0030315536386393226
+2024-05-18 14:37:00 INFO About to run command: /usr/bin/env python train.py epochs=epochs optim.lr=optim.lr
+2024-05-18 14:37:05 INFO Running runs: ['48nue256']
+2024-05-18 14:37:10 INFO Cleaning up finished run: 48nue256
+2024-05-18 14:37:14 INFO Agent received command: run
+2024-05-18 14:37:14 INFO Agent starting run with config:
+	epochs: 40
+	optim.lr: 0.008339233681952806
+2024-05-18 14:37:14 INFO About to run command: /usr/bin/env python train.py epochs=epochs optim.lr=optim.lr
+2024-05-18 14:37:19 INFO Running runs: ['do45o2tq']
+2024-05-18 14:38:15 INFO Running runs: []
+2024-05-18 14:38:15 INFO Agent received command: run
+2024-05-18 14:38:15 INFO Agent starting run with config:
+	epochs: 36
+	optim.lr: 0.0013843277325770852
+2024-05-18 14:38:15 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:38:20 INFO Running runs: ['4lbsho66']
+2024-05-18 14:38:25 INFO Cleaning up finished run: 4lbsho66
+2024-05-18 14:38:30 INFO Agent received command: run
+2024-05-18 14:38:30 INFO Agent starting run with config:
+	epochs: 42
+	optim.lr: 0.003707324053951799
+2024-05-18 14:38:30 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:38:35 INFO Running runs: ['65l4snuh']
+2024-05-18 14:38:46 INFO Cleaning up finished run: 65l4snuh
+2024-05-18 14:38:46 INFO Agent received command: run
+2024-05-18 14:38:46 INFO Agent starting run with config:
+	epochs: 19
+	optim.lr: 0.004247529140088136
+2024-05-18 14:38:46 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:38:51 INFO Running runs: ['hvuk92bl']
+2024-05-18 14:39:01 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 14:39:01 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2024-05-18 14:39:58 INFO Running runs: []
+2024-05-18 14:39:58 INFO Agent received command: run
+2024-05-18 14:39:58 INFO Agent starting run with config:
+	epochs: 42
+	optim.lr: 0.006075265270913386
+2024-05-18 14:39:58 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:40:03 INFO Running runs: ['iezsjixg']
+2024-05-18 14:40:08 INFO Cleaning up finished run: iezsjixg
+2024-05-18 14:40:13 INFO Agent received command: run
+2024-05-18 14:40:13 INFO Agent starting run with config:
+	epochs: 20
+	optim.lr: 0.002515986531253088
+2024-05-18 14:40:13 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:40:18 INFO Running runs: ['g8viwy3a']
+2024-05-18 14:45:49 INFO Running runs: []
+2024-05-18 14:45:50 INFO Agent received command: run
+2024-05-18 14:45:50 INFO Agent starting run with config:
+	epochs: 14
+	optim.lr: 0.008809213468030283
+2024-05-18 14:45:50 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:45:55 INFO Running runs: ['f0ksjzd8']
+2024-05-18 14:45:55 INFO Cleaning up finished run: f0ksjzd8
+2024-05-18 14:45:55 INFO Agent received command: run
+2024-05-18 14:45:55 INFO Agent starting run with config:
+	epochs: 50
+	optim.lr: 0.0036364692167677854
+2024-05-18 14:45:55 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:46:00 INFO Running runs: ['tn32bu5z']
+2024-05-18 14:46:00 INFO Cleaning up finished run: tn32bu5z
+2024-05-18 14:46:01 INFO Agent received command: run
+2024-05-18 14:46:01 INFO Agent starting run with config:
+	epochs: 24
+	optim.lr: 0.008552164984153161
+2024-05-18 14:46:01 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim.lr}
+2024-05-18 14:46:06 INFO Running runs: ['zlt7m46w']
+2024-05-18 14:46:06 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 14:46:06 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2024-05-18 15:00:26 INFO Running runs: []
+2024-05-18 15:00:26 INFO Agent received command: run
+2024-05-18 15:00:26 INFO Agent starting run with config:
+	epochs: 22
+	optim.lr: 0.0032673822584664
+2024-05-18 15:00:26 INFO About to run command: /usr/bin/env python train.py --epochs=22 --optim.lr=0.0032673822584664
+2024-05-18 15:00:31 INFO Running runs: ['lyyimdah']
+2024-05-18 15:00:31 INFO Cleaning up finished run: lyyimdah
+2024-05-18 15:00:31 INFO Agent received command: run
+2024-05-18 15:00:31 INFO Agent starting run with config:
+	epochs: 38
+	optim.lr: 0.0022508737258703313
+2024-05-18 15:00:31 INFO About to run command: /usr/bin/env python train.py --epochs=38 --optim.lr=0.0022508737258703313
+2024-05-18 15:02:53 INFO Running runs: []
+2024-05-18 15:02:53 INFO Agent received command: run
+2024-05-18 15:02:53 INFO Agent starting run with config:
+	epochs: 47
+	optim.lr: 0.005941268902053897
+2024-05-18 15:02:53 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim_lr}
+2024-05-18 15:02:58 INFO Running runs: ['6l6qw4ze']
+2024-05-18 15:02:58 INFO Cleaning up finished run: 6l6qw4ze
+2024-05-18 15:02:59 INFO Agent received command: run
+2024-05-18 15:02:59 INFO Agent starting run with config:
+	epochs: 29
+	optim.lr: 0.008685909061114256
+2024-05-18 15:02:59 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim_lr}
+2024-05-18 15:06:46 INFO Running runs: []
+2024-05-18 15:06:52 INFO Agent received command: run
+2024-05-18 15:06:52 INFO Agent starting run with config:
+	epochs: 13
+	optim.lr: 0.005516688954847724
+2024-05-18 15:06:52 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim_lr}
+2024-05-18 15:13:28 INFO Running runs: []
+2024-05-18 15:13:28 INFO Agent received command: run
+2024-05-18 15:13:28 INFO Agent starting run with config:
+	epochs: 12
+	optim.lr: 0.0034907778496829005
+2024-05-18 15:13:28 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim_lr}
+2024-05-18 15:13:33 INFO Running runs: ['2qqhknyd']
+2024-05-18 15:13:33 INFO Cleaning up finished run: 2qqhknyd
+2024-05-18 15:13:34 INFO Agent received command: run
+2024-05-18 15:13:34 INFO Agent starting run with config:
+	epochs: 21
+	optim.lr: 0.008264930971653676
+2024-05-18 15:13:34 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim_lr}
+2024-05-18 15:17:01 INFO Running runs: []
+2024-05-18 15:17:02 INFO Agent received command: run
+2024-05-18 15:17:02 INFO Agent starting run with config:
+	epochs: 31
+	optim.lr: 0.008666096128810809
+2024-05-18 15:17:02 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim_lr}
+2024-05-18 15:21:05 INFO Running runs: []
+2024-05-18 15:21:05 INFO Agent received command: run
+2024-05-18 15:21:05 INFO Agent starting run with config:
+	epochs: 11
+	optim.lr: 0.006928297550295809
+2024-05-18 15:21:05 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim_lr}
+2024-05-18 15:21:10 INFO Running runs: ['xkj1jd3g']
+2024-05-18 15:21:10 INFO Cleaning up finished run: xkj1jd3g
+2024-05-18 15:21:11 INFO Agent received command: run
+2024-05-18 15:21:11 INFO Agent starting run with config:
+	epochs: 37
+	optim.lr: 0.008031171787575748
+2024-05-18 15:21:11 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim_lr}
+2024-05-18 15:21:16 INFO Running runs: ['481hbzc4']
+2024-05-18 15:21:16 INFO Cleaning up finished run: 481hbzc4
+2024-05-18 15:21:16 INFO Agent received command: run
+2024-05-18 15:21:16 INFO Agent starting run with config:
+	epochs: 12
+	optim.lr: 0.00828423452762867
+2024-05-18 15:21:16 INFO About to run command: /usr/bin/env python train.py epochs=${epochs} optim.lr=${optim_lr}
+2024-05-18 15:21:21 INFO Running runs: ['68qm9iwy']
+2024-05-18 15:21:21 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-05-18 15:21:21 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true

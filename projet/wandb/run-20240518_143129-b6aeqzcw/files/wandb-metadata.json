@@ -1,0 +1,132 @@
+{
+    "os": "Linux-5.14.0-427.16.1.el9_4.x86_64-x86_64-with-glibc2.34",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-05-18T12:31:29.945647",
+    "startedAt": "2024-05-18T12:31:29.389935",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "datamodule.batch_size=datamodule.batch_size",
+        "epochs=epochs",
+        "optim.lr=optim.lr"
+    ],
+    "state": "running",
+    "program": "/Data/harold.ngoupeyou/cheese_classification_challenge/train.py",
+    "codePathLocal": null,
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/haroldngg/cheese_classification_challenge.git",
+        "commit": "6829045c8908dd76a0717b2e3353450815f85f53"
+    },
+    "email": null,
+    "root": "/Data/harold.ngoupeyou/cheese_classification_challenge",
+    "host": "albatros.polytechnique.fr",
+    "username": "noam-joud-harold.ngoupeyou",
+    "executable": "/Data/harold.ngoupeyou/cheese_challenge/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3.710749999999999,
+        "min": 800.0,
+        "max": 5100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 2.372,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3.8,
+            "min": 800.0,
+            "max": 5100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 3.990234375,
+            "used": 0.9446067810058594
+        }
+    },
+    "gpu": "NVIDIA RTX A5000",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A5000",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 62.28952407836914
+    }
+}
