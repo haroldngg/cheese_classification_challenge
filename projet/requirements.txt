@@ -1,0 +1,6 @@
+hydra-core
+wandb
+einops
+diffusers
+transformers
+pandas

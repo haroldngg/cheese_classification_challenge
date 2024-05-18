@@ -1,0 +1,3 @@
+_target_: generators.fromage_particulier.Fromage_particulier
+nom_fromage_modele: chevre
+use_cpu_offload: false

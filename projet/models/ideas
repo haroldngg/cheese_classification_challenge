@@ -1,0 +1,21 @@
+Idee n: potentiel positif, potentiel negatif, difficultee d'implementation, description courte
+    -> description longue
+
+potentiels : 0 ca change rien du tout, 99 ca change tout
+difficultee : 0 ca coute 30s, 99 ca va prendre 99 minutes (en minutes)
+
+# A implementer :
+
+Dropout
+Residual blocks
+Normalization (Batch/layer probably layer for GPU)
+
+
+
+# Amelioration : 
+
+Amelioration 1: 20, 15, 120 : finetuning sur images reelles
+    -> Entrainer le modele en general sur beaucoup d'image de fromages sans voir les vrais images puis fine-tuner notre modele entrainer sur les 10 vrais images dont on dispose
+Amelioration 2: 20, 0, 10 : Plus d'inputs
+    -> donner plus d'input genre le carre de la valeur de chaque pixel, ou les differents produits possible entre
+    -> variante : ne pas le faire que sur les inputs mais sur des noeuds intermediaire> pas convaincu
