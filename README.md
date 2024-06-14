@@ -2,7 +2,7 @@
 The main code comes from the codebase we were given. It uses the same requirements. 
 
 ## Confusion Matrix 
-The confusion matrix can be found here : https://docs.google.com/spreadsheets/d/19krb64sv5nCUyPYB_JLUVfQZybjAOdn9nxjGFTFiTPM/edit?usp=sharing 
+The confusion matrix and scores google sheet can be found here : https://docs.google.com/spreadsheets/d/19krb64sv5nCUyPYB_JLUVfQZybjAOdn9nxjGFTFiTPM/edit?usp=sharing 
 
 ## Dreambooth 
 All the models can be found here : https://huggingface.co/organizations/ngoupeyoukheng/share/XmOOlgcJkZTtanYGHBzvMzRDnXPzZQpWHT
