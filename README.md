@@ -1,5 +1,5 @@
 # Cheese Classification challenge
-<<<<<<< HEAD
+HEAD
 Most of the code comes from the codebase we were given. It uses the same requirements. 
 
 ## Confusion Matrix 
