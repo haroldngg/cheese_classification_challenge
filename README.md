@@ -6,7 +6,7 @@ The confusion matrix and scores google sheet can be found here : https://docs.go
 
 ## Dreambooth 
 All the models can be found here : https://huggingface.co/organizations/ngoupeyoukheng/share/XmOOlgcJkZTtanYGHBzvMzRDnXPzZQpWHT 
-Warning : The dataset are uncomplete and not the last one. For the dataset, see Final dataset. 
+Warning : The dataset on huggingface are uncomplete and not recent. For the dataset, see Final dataset. 
 
 ## IP_adapter
 There is one additional directory named IPAdapter. 
