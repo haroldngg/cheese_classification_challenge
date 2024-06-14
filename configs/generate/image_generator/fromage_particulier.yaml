@@ -1,3 +1,7 @@
 _target_: generators.fromage_particulier.Fromage_particulier
+<<<<<<< HEAD
 nom_fromage_modele: nom_fromage
+=======
+nom_fromage_modele: chevre
+>>>>>>> a90b4086 (final version)
 use_cpu_offload: false

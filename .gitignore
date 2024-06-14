@@ -1,8 +1,12 @@
 __pycache__
 split_dataset.py
+<<<<<<< HEAD
 wandb
 outputs
 /dataset/
+=======
+outputs
+>>>>>>> a90b4086 (final version)
 !/dataset/.empty
 challenge_subset
 create_test.py

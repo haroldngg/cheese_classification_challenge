@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 defaults:
   - train_transform: simple
   - test_transform: simple
@@ -9,3 +10,16 @@ num_workers: 8
 train_path: ${data_dir}/train/simple_prompts
 real_images_val_path: ${data_dir}/val
 test_path: ${data_dir}/test
+=======
+defaults:
+  - train_transform: simple
+  - test_transform: simple
+
+name: advanced_prompts
+num_classes: 37
+batch_size: 128
+num_workers: 8
+train_path: ${data_dir}/train/simple_prompts
+real_images_val_path: ${data_dir}/val
+test_path: ${data_dir}/test
+>>>>>>> a90b4086 (final version)

@@ -1,0 +1,38 @@
+defaults:
+  - model: dinov2
+  - dataset: advanced_prompt
+  - optim: adamw
+  - loss_fn: cross_entropy
+  - _self_
+
+datamodule:
+  _target_: data.datamodule.DataModule
+  train_dataset_path: ${dataset.train_path}
+  real_images_val_path: ${dataset.real_images_val_path}
+  train_transform: ${dataset.train_transform}
+  val_transform: ${dataset.test_transform}
+  batch_size: 128  
+  num_workers: ${dataset.num_workers}
+
+optim:
+  _target_: torch.optim.AdamW
+  lr: 1e-6  
+  betas:
+    - 0.9
+    - 0.999
+  weight_decay: 0.01
+
+
+data_dir: ${root_dir}/dataset
+root_dir: ${hydra:runtime.cwd}
+checkpoint_path: ${root_dir}/checkpoints/soup.pt
+
+experiment_name: ${model.name}_${dataset.name}
+
+epochs: 5  
+
+hydra:
+  run:
+    dir: outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}/
+  job:
+    chdir: true

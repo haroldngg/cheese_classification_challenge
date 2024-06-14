@@ -1,10 +1,17 @@
 defaults:
   - model: dinov2
+<<<<<<< HEAD
   - dataset: simple_prompts
   - optim: adamw
   - loss_fn: cross_entropy
 
 epochs: 1
+=======
+  - dataset: advanced_prompt
+  - optim: adamw
+  - loss_fn: cross_entropy
+  - _self_
+>>>>>>> a90b4086 (final version)
 
 datamodule:
   _target_: data.datamodule.DataModule
@@ -12,6 +19,7 @@ datamodule:
   real_images_val_path: ${dataset.real_images_val_path}
   train_transform: ${dataset.train_transform}
   val_transform: ${dataset.test_transform}
+<<<<<<< HEAD
   batch_size: ${dataset.batch_size}
   num_workers: ${dataset.num_workers}
 
@@ -20,6 +28,30 @@ root_dir:  ${hydra:runtime.cwd}
 checkpoint_path: ${root_dir}/checkpoints/${experiment_name}.pt
 
 experiment_name: ${model.name}_${dataset.name}
+=======
+  batch_size: 128  
+  num_workers: ${dataset.num_workers}
+
+optim:
+  _target_: torch.optim.AdamW
+  lr: 6e-5  
+  betas:
+    - 0.9
+    - 0.999
+  weight_decay: 0.01
+
+
+data_dir: ${root_dir}/dataset
+root_dir: ${hydra:runtime.cwd}
+checkpoint_path: ${root_dir}/checkpoints/${experiment_name}.pt
+model_path: ${root_dir}/checkpoints/DINOV2_advanced_prompt.pt_epoch_22_0.621.pt
+
+
+experiment_name: ${model.name}_${dataset.name}
+
+epochs: 25  
+
+>>>>>>> a90b4086 (final version)
 hydra:
   run:
     dir: outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}/

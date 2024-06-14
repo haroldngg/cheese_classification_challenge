@@ -2,6 +2,7 @@ import torch
 import wandb
 import hydra
 from tqdm import tqdm
+<<<<<<< HEAD
 
 
 @hydra.main(config_path="configs/train", config_name="config")
@@ -9,6 +10,22 @@ def train(cfg):
     logger = wandb.init(project="challenge_cheese", name=cfg.experiment_name)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = hydra.utils.instantiate(cfg.model.instance).to(device)
+=======
+import numpy as np
+import os
+
+@hydra.main(config_path="configs/train", config_name="config")
+def train(cfg):
+
+    os.environ["WANDB_DIR"] = "/Data/harold.ngoupeyou/wandb"
+
+    logger = wandb.init(project="challenge_cheese", name=cfg.experiment_name, settings=wandb.Settings(_disable_stats=True) )
+    wandb.config.update({"exclude": ["*.tmp", "*.log"]})
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model = hydra.utils.instantiate(cfg.model.instance).to(device)
+    model.load_state_dict(torch.load(cfg.model_path))
+>>>>>>> a90b4086 (final version)
     optimizer = hydra.utils.instantiate(cfg.optim, params=model.parameters())
     loss_fn = hydra.utils.instantiate(cfg.loss_fn)
     datamodule = hydra.utils.instantiate(cfg.datamodule)
@@ -16,6 +33,14 @@ def train(cfg):
     train_loader = datamodule.train_dataloader()
     val_loaders = datamodule.val_dataloader()
 
+<<<<<<< HEAD
+=======
+    best_epoch_acc = 0
+    best_checkpoint_path = cfg.checkpoint_path
+    accuracy_checkpoints = []
+
+
+>>>>>>> a90b4086 (final version)
     for epoch in tqdm(range(cfg.epochs)):
         epoch_loss = 0
         epoch_num_correct = 0
@@ -66,6 +91,15 @@ def train(cfg):
                 num_samples += len(images)
             epoch_loss /= num_samples
             epoch_acc = epoch_num_correct / num_samples
+<<<<<<< HEAD
+=======
+            accuracy_checkpoints.append((epoch_acc, epoch, f"{cfg.checkpoint_path}_epoch_{epoch}.pt"))
+            if epoch_acc > best_epoch_acc and val_set_name == "real_val":
+                print(f"=====NEW BEST ACCURACY====== :   {epoch_acc}")
+                best_epoch_acc = epoch_acc
+                best_checkpoint_path = f"{cfg.checkpoint_path}_epoch_{epoch}_{epoch_acc:.3f}.pt"
+                torch.save(model.state_dict(), best_checkpoint_path)
+>>>>>>> a90b4086 (final version)
             val_metrics[f"{val_set_name}/loss"] = epoch_loss
             val_metrics[f"{val_set_name}/acc"] = epoch_acc
             val_metrics[f"{val_set_name}/confusion_matrix"] = (
@@ -85,8 +119,24 @@ def train(cfg):
                 **val_metrics,
             }
         )
+<<<<<<< HEAD
     torch.save(model.state_dict(), cfg.checkpoint_path)
 
 
 if __name__ == "__main__":
     train()
+=======
+    
+    accuracy_checkpoints = np.array(accuracy_checkpoints, dtype=object)
+    best_epoch_index = accuracy_checkpoints[:, 0].argmax()
+    best_epoch_acc = accuracy_checkpoints[best_epoch_index, 0]
+    best_checkpoint_path = accuracy_checkpoints[best_epoch_index, 2]
+
+    logger.log({"best_epoch_acc": best_epoch_acc, "best_checkpoint_path": best_checkpoint_path})
+
+    torch.save(model.state_dict(), best_checkpoint_path)
+
+
+if __name__ == "__main__":
+    train()
+>>>>>>> a90b4086 (final version)

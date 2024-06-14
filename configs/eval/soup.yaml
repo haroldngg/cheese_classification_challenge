@@ -1,0 +1,21 @@
+defaults:
+  - model: dinov2
+  - dataset: advanced_prompt
+  - optim: adamw
+  - loss_fn: cross_entropy
+  - _self_
+
+
+
+data_dir: ${root_dir}/dataset
+root_dir: ${hydra:runtime.cwd}
+
+model_paths:
+  - ${root_dir}/checkpoints/06153.pt
+  - ${root_dir}/checkpoints/DINOV2_advanced_prompt.pt_epoch_0_0.617.pt
+  - ${root_dir}/checkpoints/DINOV2_advanced_prompt.pt_epoch_22_0.621.pt
+  - ${root_dir}/checkpoints/DINOV2_advanced_prompt.pt_epoch_33_0.607.pt
+
+
+soup_checkpoint_path: ${root_dir}/checkpoints/soup.pt
+

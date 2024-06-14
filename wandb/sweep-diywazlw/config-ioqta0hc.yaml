@@ -1,0 +1,8 @@
+wandb_version: 1
+
+batch_size:
+  value: 123
+epochs:
+  value: 20
+lr:
+  value: 0.000307964648834657

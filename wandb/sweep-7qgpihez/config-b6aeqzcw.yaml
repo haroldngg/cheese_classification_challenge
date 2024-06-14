@@ -1,0 +1,8 @@
+wandb_version: 1
+
+datamodule.batch_size:
+  value: 114
+epochs:
+  value: 40
+optim.lr:
+  value: 0.0047995671172057375

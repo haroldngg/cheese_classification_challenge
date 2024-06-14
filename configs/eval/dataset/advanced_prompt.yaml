@@ -1,0 +1,11 @@
+defaults:
+  - train_transform: advanced
+  - test_transform: simple
+
+name: advanced_prompt
+num_classes: 37
+batch_size: 128
+num_workers: 8
+train_path: ${data_dir}/train/advanced_prompt_advanced_models/00-v2
+real_images_val_path: ${data_dir}/val_simplified
+test_path: ${data_dir}/test

@@ -1,0 +1,14 @@
+method: bayes
+metric:
+  name: real_val/acc
+  goal: maximize
+parameters:
+  epochs:
+    min: 5
+    max: 20
+  lr:
+    min: 1e-6
+    max: 1e-3
+  batch_size:
+    min: 16
+    max: 128

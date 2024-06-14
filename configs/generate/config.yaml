@@ -1,5 +1,6 @@
 batch_size: 1
 data_dir: ${root_dir}/dataset
+<<<<<<< HEAD
 defaults:
 - image_generator: fromage_particulier
 - dataset_generator: advanced_prompt
@@ -10,3 +11,17 @@ hydra:
     dir: outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}/
 labels_file: '${root_dir}/list_of_single_cheese/patato.txt '
 root_dir: ${hydra:runtime.cwd}
+=======
+root_dir:  ${hydra:runtime.cwd}
+
+defaults:
+- image_generator: sdxl_briedemelun
+- dataset_generator: advanced_prompt
+labels_file: ${root_dir}/list_of_cheese.txt
+
+hydra:
+  run:
+    dir: outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}/
+  job:
+    chdir: true
+>>>>>>> a90b4086 (final version)

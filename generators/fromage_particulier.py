@@ -2,6 +2,7 @@ import torch
 from diffusers import (
     DiffusionPipeline,
     EulerDiscreteScheduler,
+<<<<<<< HEAD
 )
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -11,6 +12,19 @@ print(device)
 #########################################################
 token = # Put your access token to the repository here !
 #########################################################
+=======
+    StableDiffusionXLPipeline, 
+    UNet2DConditionModel
+)
+
+from huggingface_hub import hf_hub_download
+from safetensors.torch import load_file
+
+
+device = "cuda" if torch.cuda.is_available() else "cpu"
+print(device)
+
+>>>>>>> a90b4086 (final version)
 
 class Fromage_particulier:
     def __init__(
@@ -26,7 +40,11 @@ class Fromage_particulier:
             base, torch_dtype=torch.float16, variant="fp16",
         ).to(device)
 
+<<<<<<< HEAD
         self.pipe.load_lora_weights(repo, token=token)
+=======
+        self.pipe.load_lora_weights(repo)
+>>>>>>> a90b4086 (final version)
 
         self.pipe.scheduler = EulerDiscreteScheduler.from_config(
             self.pipe.scheduler.config, timestep_spacing="trailing"
@@ -36,7 +54,11 @@ class Fromage_particulier:
 
         if use_cpu_offload:
             self.pipe.enable_sequential_cpu_offload()
+<<<<<<< HEAD
         self.num_inference_steps = 50
+=======
+        self.num_inference_steps = 4
+>>>>>>> a90b4086 (final version)
         self.guidance_scale = 0
 
     def generate(self, prompts):

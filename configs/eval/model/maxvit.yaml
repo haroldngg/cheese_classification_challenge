@@ -1,0 +1,6 @@
+instance:
+  _target_: models.maxvit.MaxViTFinetune
+  num_classes: ${dataset.num_classes}
+  frozen: True
+
+name: MaxViT

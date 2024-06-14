@@ -66,4 +66,8 @@ class DatasetGenerator:
         output_path = Path(self.output_dir) / label
         output_path.mkdir(parents=True, exist_ok=True)
         for i, image in enumerate(images):
+<<<<<<< HEAD
             image.save(output_path / f"{str(image_id_0 + i).zfill(6)}.jpg")
+=======
+            image.save(output_path / f"{str(image_id_0 + i).zfill(5)}.jpg")
+>>>>>>> a90b4086 (final version)
