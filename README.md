@@ -5,10 +5,11 @@ The main code comes from the codebase we were given. It uses the same requiremen
 The confusion matrix and scores google sheet can be found here : https://docs.google.com/spreadsheets/d/19krb64sv5nCUyPYB_JLUVfQZybjAOdn9nxjGFTFiTPM/edit?usp=sharing 
 
 ## Dreambooth 
-All the models can be found here : https://huggingface.co/organizations/ngoupeyoukheng/share/XmOOlgcJkZTtanYGHBzvMzRDnXPzZQpWHT
+All the models can be found here : https://huggingface.co/organizations/ngoupeyoukheng/share/XmOOlgcJkZTtanYGHBzvMzRDnXPzZQpWHT 
+Warning : The dataset are uncomplete and not the last one. For the dataset, see Final dataset. 
 
 ## IP_adapter
-There is one additional directory named IP_Adaptor. 
+There is one additional directory named IPAdapter. 
 You wil find there 3 files : the json file coresponding to the IP-adaptor file, and two python files coresponding to the to-python version of our comfyUI architecture. We don't know how much of ComfyUI is required to run those two python files. 
  
 If you want to run our IP-Adapter model in ComfyUI : 
